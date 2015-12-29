@@ -22,7 +22,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-The Tip Calculator was easy to complete. However, I tried to complete the additional excersies, but had a very hard time doing so without any instruction. I wasn't sure how to manuever through certain things and I definitely need some help. Hopefully, by the time this course is over, I'll be able to do all the additional tasks. 
+The Tip Calculator was easy to complete. However, I tried to complete the additional excersies, but had a very hard time doing so without the detailed instruction that was given for completing the requirements. I wasn't sure how to manuever through and use certain things and I definitely need some help. Hopefully, by the time this course is over, I'll be able to do all the additional tasks. 
 
 ## License
 
