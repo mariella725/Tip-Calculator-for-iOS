@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D84BE65E1C2C638000D8C128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84BE65D1C2C638000D8C128 /* AppDelegate.swift */; };
+		D84BE6601C2C638000D8C128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84BE65F1C2C638000D8C128 /* ViewController.swift */; };
+		D84BE6631C2C638000D8C128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84BE6611C2C638000D8C128 /* Main.storyboard */; };
+		D84BE6651C2C638000D8C128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D84BE6641C2C638000D8C128 /* Assets.xcassets */; };
+		D84BE6681C2C638000D8C128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84BE6661C2C638000D8C128 /* LaunchScreen.storyboard */; };
+		D84BE6731C2C638000D8C128 /* iMistletoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84BE6721C2C638000D8C128 /* iMistletoeTests.swift */; };
+		D84BE67E1C2C638100D8C128 /* iMistletoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84BE67D1C2C638100D8C128 /* iMistletoeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D84BE66F1C2C638000D8C128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D84BE6521C2C638000D8C128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D84BE6591C2C638000D8C128;
+			remoteInfo = iMistletoe;
+		};
+		D84BE67A1C2C638100D8C128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D84BE6521C2C638000D8C128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D84BE6591C2C638000D8C128;
+			remoteInfo = iMistletoe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D84BE65A1C2C638000D8C128 /* iMistletoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMistletoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84BE65D1C2C638000D8C128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D84BE65F1C2C638000D8C128 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D84BE6621C2C638000D8C128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D84BE6641C2C638000D8C128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D84BE6671C2C638000D8C128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D84BE6691C2C638000D8C128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D84BE66E1C2C638000D8C128 /* iMistletoeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMistletoeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84BE6721C2C638000D8C128 /* iMistletoeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMistletoeTests.swift; sourceTree = "<group>"; };
+		D84BE6741C2C638000D8C128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D84BE6791C2C638000D8C128 /* iMistletoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMistletoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84BE67D1C2C638100D8C128 /* iMistletoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMistletoeUITests.swift; sourceTree = "<group>"; };
+		D84BE67F1C2C638100D8C128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D84BE6571C2C638000D8C128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84BE66B1C2C638000D8C128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84BE6761C2C638000D8C128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D84BE6511C2C638000D8C128 = {
+			isa = PBXGroup;
+			children = (
+				D84BE65C1C2C638000D8C128 /* iMistletoe */,
+				D84BE6711C2C638000D8C128 /* iMistletoeTests */,
+				D84BE67C1C2C638100D8C128 /* iMistletoeUITests */,
+				D84BE65B1C2C638000D8C128 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D84BE65B1C2C638000D8C128 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D84BE65A1C2C638000D8C128 /* iMistletoe.app */,
+				D84BE66E1C2C638000D8C128 /* iMistletoeTests.xctest */,
+				D84BE6791C2C638000D8C128 /* iMistletoeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D84BE65C1C2C638000D8C128 /* iMistletoe */ = {
+			isa = PBXGroup;
+			children = (
+				D84BE65D1C2C638000D8C128 /* AppDelegate.swift */,
+				D84BE65F1C2C638000D8C128 /* ViewController.swift */,
+				D84BE6611C2C638000D8C128 /* Main.storyboard */,
+				D84BE6641C2C638000D8C128 /* Assets.xcassets */,
+				D84BE6661C2C638000D8C128 /* LaunchScreen.storyboard */,
+				D84BE6691C2C638000D8C128 /* Info.plist */,
+			);
+			path = iMistletoe;
+			sourceTree = "<group>";
+		};
+		D84BE6711C2C638000D8C128 /* iMistletoeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D84BE6721C2C638000D8C128 /* iMistletoeTests.swift */,
+				D84BE6741C2C638000D8C128 /* Info.plist */,
+			);
+			path = iMistletoeTests;
+			sourceTree = "<group>";
+		};
+		D84BE67C1C2C638100D8C128 /* iMistletoeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D84BE67D1C2C638100D8C128 /* iMistletoeUITests.swift */,
+				D84BE67F1C2C638100D8C128 /* Info.plist */,
+			);
+			path = iMistletoeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D84BE6591C2C638000D8C128 /* iMistletoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D84BE6821C2C638100D8C128 /* Build configuration list for PBXNativeTarget "iMistletoe" */;
+			buildPhases = (
+				D84BE6561C2C638000D8C128 /* Sources */,
+				D84BE6571C2C638000D8C128 /* Frameworks */,
+				D84BE6581C2C638000D8C128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMistletoe;
+			productName = iMistletoe;
+			productReference = D84BE65A1C2C638000D8C128 /* iMistletoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D84BE66D1C2C638000D8C128 /* iMistletoeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D84BE6851C2C638100D8C128 /* Build configuration list for PBXNativeTarget "iMistletoeTests" */;
+			buildPhases = (
+				D84BE66A1C2C638000D8C128 /* Sources */,
+				D84BE66B1C2C638000D8C128 /* Frameworks */,
+				D84BE66C1C2C638000D8C128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D84BE6701C2C638000D8C128 /* PBXTargetDependency */,
+			);
+			name = iMistletoeTests;
+			productName = iMistletoeTests;
+			productReference = D84BE66E1C2C638000D8C128 /* iMistletoeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D84BE6781C2C638000D8C128 /* iMistletoeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D84BE6881C2C638100D8C128 /* Build configuration list for PBXNativeTarget "iMistletoeUITests" */;
+			buildPhases = (
+				D84BE6751C2C638000D8C128 /* Sources */,
+				D84BE6761C2C638000D8C128 /* Frameworks */,
+				D84BE6771C2C638000D8C128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D84BE67B1C2C638100D8C128 /* PBXTargetDependency */,
+			);
+			name = iMistletoeUITests;
+			productName = iMistletoeUITests;
+			productReference = D84BE6791C2C638000D8C128 /* iMistletoeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D84BE6521C2C638000D8C128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mariella Sypa";
+				TargetAttributes = {
+					D84BE6591C2C638000D8C128 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 95E3M7YH5X;
+					};
+					D84BE66D1C2C638000D8C128 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 95E3M7YH5X;
+						TestTargetID = D84BE6591C2C638000D8C128;
+					};
+					D84BE6781C2C638000D8C128 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 95E3M7YH5X;
+						TestTargetID = D84BE6591C2C638000D8C128;
+					};
+				};
+			};
+			buildConfigurationList = D84BE6551C2C638000D8C128 /* Build configuration list for PBXProject "iMistletoe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D84BE6511C2C638000D8C128;
+			productRefGroup = D84BE65B1C2C638000D8C128 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D84BE6591C2C638000D8C128 /* iMistletoe */,
+				D84BE66D1C2C638000D8C128 /* iMistletoeTests */,
+				D84BE6781C2C638000D8C128 /* iMistletoeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D84BE6581C2C638000D8C128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84BE6681C2C638000D8C128 /* LaunchScreen.storyboard in Resources */,
+				D84BE6651C2C638000D8C128 /* Assets.xcassets in Resources */,
+				D84BE6631C2C638000D8C128 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84BE66C1C2C638000D8C128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84BE6771C2C638000D8C128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D84BE6561C2C638000D8C128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84BE6601C2C638000D8C128 /* ViewController.swift in Sources */,
+				D84BE65E1C2C638000D8C128 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84BE66A1C2C638000D8C128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84BE6731C2C638000D8C128 /* iMistletoeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84BE6751C2C638000D8C128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84BE67E1C2C638100D8C128 /* iMistletoeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D84BE6701C2C638000D8C128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D84BE6591C2C638000D8C128 /* iMistletoe */;
+			targetProxy = D84BE66F1C2C638000D8C128 /* PBXContainerItemProxy */;
+		};
+		D84BE67B1C2C638100D8C128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D84BE6591C2C638000D8C128 /* iMistletoe */;
+			targetProxy = D84BE67A1C2C638100D8C128 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D84BE6611C2C638000D8C128 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D84BE6621C2C638000D8C128 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D84BE6661C2C638000D8C128 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D84BE6671C2C638000D8C128 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D84BE6801C2C638100D8C128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D84BE6811C2C638100D8C128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D84BE6831C2C638100D8C128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iMistletoe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariella-Sypa.iMistletoe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D84BE6841C2C638100D8C128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iMistletoe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariella-Sypa.iMistletoe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D84BE6861C2C638100D8C128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iMistletoeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariella-Sypa.iMistletoeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMistletoe.app/iMistletoe";
+			};
+			name = Debug;
+		};
+		D84BE6871C2C638100D8C128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iMistletoeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariella-Sypa.iMistletoeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMistletoe.app/iMistletoe";
+			};
+			name = Release;
+		};
+		D84BE6891C2C638100D8C128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iMistletoeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariella-Sypa.iMistletoeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iMistletoe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D84BE68A1C2C638100D8C128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iMistletoeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariella-Sypa.iMistletoeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iMistletoe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D84BE6551C2C638000D8C128 /* Build configuration list for PBXProject "iMistletoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84BE6801C2C638100D8C128 /* Debug */,
+				D84BE6811C2C638100D8C128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D84BE6821C2C638100D8C128 /* Build configuration list for PBXNativeTarget "iMistletoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84BE6831C2C638100D8C128 /* Debug */,
+				D84BE6841C2C638100D8C128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D84BE6851C2C638100D8C128 /* Build configuration list for PBXNativeTarget "iMistletoeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84BE6861C2C638100D8C128 /* Debug */,
+				D84BE6871C2C638100D8C128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D84BE6881C2C638100D8C128 /* Build configuration list for PBXNativeTarget "iMistletoeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84BE6891C2C638100D8C128 /* Debug */,
+				D84BE68A1C2C638100D8C128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D84BE6521C2C638000D8C128 /* Project object */;
+}
