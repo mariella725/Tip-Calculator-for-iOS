@@ -1,3 +1,0 @@
-# Tip Calculator
-# TipCalculator
-# TipCalculator

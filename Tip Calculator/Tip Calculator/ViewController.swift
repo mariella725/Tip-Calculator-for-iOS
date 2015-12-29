@@ -24,11 +24,6 @@ class ViewController: UIViewController {
         //Sets the title in the Navigation Bar 
         self.title = "Tip Calculator"
         
-        //Make keyboard pop up immediately 
-        
-
-
-        
         
         // Do any additional setup after loading the view, typically from a nib.
        
